@@ -38,12 +38,22 @@ function AboutPage() {
             <Section title=''>
             O Clube GreenTech é uma comunidade apaixonada e comprometida com a aplicação da tecnologia para promover soluções sustentáveis e enfrentar os desafios ambientais atuais. Fundado em Maio de 2023, no âmbito do Instituto de Tecnologia e Liderança, o nosso objetivo é catalisar a inovação e a colaboração em prol de um futuro mais verde e sustentável.
             </Section>
+
           <Section title="Nossa Missão">
+            <p>
+              A missão do Clube GreenTech é incentivar o desenvolvimento de tecnologias inovadoras que promovam a conservação ambiental e sustentabilidade, utilizando a tecnologia como ferramenta para alcançar justiça social, equidade e inclusão digital. Estamos comprometidos em fomentar práticas empresariais éticas e uma governança corporativa sustentável, formando líderes na Inteli que apliquem a sustentabilidade em seus negócios. Buscamos transformar tanto a comunidade acadêmica quanto a sociedade, incentivando todos os membros a aplicar conscientemente tecnologia em prol de um impacto positivo e duradouro relacionado ao ESG.
+            </p>
+          </Section>
+
+          <Section title="Nossos Valores">
             <List
               items={[
-                "Desenvolver e implementar tecnologias inovadoras que contribuam para a conservação ambiental e iniciativas de sustentabilidade.",
-                "Utilizar a tecnologia como uma ferramenta para promover a justiça social, equidade e inclusão digital.",
-                "Estimular práticas empresariais éticas e governança corporativa transparente através de soluções tecnológicas."
+                "Inovação Sustentável: Promovemos o desenvolvimento de tecnologias que contribuam para a sustentabilidade ambiental, criando soluções inovadoras que não comprometam os recursos das futuras gerações.",
+                "Integridade Ecológica: Defendemos práticas que respeitem e protejam o meio ambiente, incorporando princípios de ESG (Environmental, Social, and Governance) em todas as nossas atividades e projetos.",
+                "Empreendedorismo Verde: Incentivamos o espírito empresarial focado em soluções ambientais, apoiando iniciativas e startups de GreenTech e Climatech que propõem modelos de negócios sustentáveis.",
+                "Colaboração e Comunidade: Valorizamos a troca de ideias e a colaboração entre membros, instituições e a comunidade, criando uma rede de apoio para aqueles comprometidos com mudanças positivas.",
+                "Educação e Capacitação: Comprometemo-nos com a educação contínua de nossos membros, fornecendo acesso a recursos, treinamento e oportunidades para se tornarem líderes em práticas sustentáveis.",
+                "Liderança em Sustentabilidade: Aspiramos ser um exemplo para outros, liderando pelo exemplo no desenvolvimento e implementação de tecnologias e práticas que promovam um futuro sustentável."
               ]}
             />
           </Section>
@@ -51,6 +61,7 @@ function AboutPage() {
           <Section title="O que Fazemos">
             <List
               items={[
+                "Organização de eventos, workshops e palestras para promover a conscientização sobre questões ambientais e sustentabilidade.",
                 "Pesquisa e desenvolvimento de soluções tecnológicas para mitigar problemas ambientais e promover práticas sustentáveis.",
                 "Desenvolvimento de aplicativos e plataformas online que promovam a participação cívica, justiça social e transparência.",
                 "Parcerias com empresas e organizações para implementar soluções tecnológicas que melhorem a governança e responsabilidade social."

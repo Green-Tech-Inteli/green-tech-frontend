@@ -16,12 +16,12 @@ const HeroContent = () => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center">
           <div className="text-center text-white">
-            <h1 className="text-xl md:text-2xl lg:text-4xl xl:text-5xl font-extrabold leading-tight mb-4">
-              Adote a Sustentabilidade com os princípios de ESG
-            </h1>
-            <p className="text-lg md:text-xs lg:text-sm xl:text-xl text-gray-300 mb-6">
-              Explore como as práticas ambientais, sociais e de governança (ESG) podem criar um impacto positivo nas empresas e na sociedade.
-            </p>
+          <h1 className="text-xl md:text-2xl lg:text-4xl xl:text-5xl font-extrabold leading-tight mb-4">
+            Construa o Futuro melhor com a Tecnologia e os Princípios ESG
+          </h1>
+          <p className="text-lg md:text-xs lg:text-sm xl:text-xl text-gray-300 mb-6">
+            Descubra como inovação tecnológica e práticas ESG podem transformar negócios e gerar um legado positivo para o planeta.
+          </p>
             <button className="md:text-sm lg:text-lg px-8 py-3 bg-gradient-to-r from-amber-500 to-yellow-600 text-white font-semibold rounded-full hover:from-amber-600 hover:to-yellow-700">
               Saiba mais
             </button>

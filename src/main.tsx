@@ -11,6 +11,11 @@ import ProjectDetailsPage from './pages/Projects/ProjectDetailsPage.tsx';
 import MembersPage from './pages/Members/MembersPage.tsx';
 import AboutPage from './pages/About/AboutPage.tsx';
 import Error from './pages/Error/Error.tsx';
+import NewTemplate from './pages/News/NewTemplate.tsx';
+import NewsPageTrash from './pages/News/TrashEletronic.tsx';
+import AtrobotsPartneshp from './pages/News/AtrobotsPartneshp.tsx';
+import BTGproject from './pages/Projects/BTGproject.tsx';
+import ContactPage from './pages/Contact/Contact.tsx';
 
 const router = createBrowserRouter([
   {
@@ -42,6 +47,26 @@ const router = createBrowserRouter([
         path: "/partnerships",
         element: <PartnershipsPage />
       },
+      {
+        path: "/news/template",
+        element: <NewTemplate />
+      },
+      {
+        path: "/news/eletronic-trash",
+        element: <NewsPageTrash />
+      },
+      {
+        path: "/news/atrobots-partnership",
+        element: <AtrobotsPartneshp />
+      },
+      {
+        path: "/project/esg-btg-chatbot",
+        element: <BTGproject />
+      },
+      {
+        path: "/contact",
+        element: <ContactPage />
+      }
     ]
   }
 ]);

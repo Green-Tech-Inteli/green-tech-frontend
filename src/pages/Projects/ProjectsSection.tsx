@@ -70,7 +70,7 @@ const TechProjectsCarousel = () => {
               <div className="p-4">
                 <h2 className="text-xl font-semibold">{project.title}</h2>
                 <p className="text-gray-600">{project.shortDescription}</p>
-                <Link to={`/project/${project.id}`} state={project} className="flex justify-center mt-4 bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 w-full rounded-full">Detalhes</Link>
+                <Link to={project.path} state={project} className="flex justify-center mt-4 bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 w-full rounded-full">Detalhes</Link>
               </div>
             </div>
           </div>
