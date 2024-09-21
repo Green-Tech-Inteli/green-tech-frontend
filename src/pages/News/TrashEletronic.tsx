@@ -1,3 +1,6 @@
+import image1 from "../../assets/Ponto-de-coleta-foto-1.jpg";
+import image2 from "../../assets/Ponto-de-coleta-foto-2.jpg";
+
 function NewsPageTrash() {
   return (
     <div className="p-4 lg:p-8 bg-white text-gray-700">
@@ -6,7 +9,7 @@ function NewsPageTrash() {
           <h1 className="text-4xl font-bold mb-4">Ponto de Coleta de Lixo Eletrônico na Inteli</h1>
           <p className="text-gray-500 mb-2">Data da publicação: 20 de Setembro de 2024</p>
           <img
-            src="/src/assets/Ponto-de-coleta-foto-1.jpg"
+            src={image1}
             alt="Ponto de coleta de lixo eletrônico na Inteli"
             className="w-full h-auto mb-6 mx-auto"
             style={{ width: "23%"}}
@@ -24,7 +27,7 @@ function NewsPageTrash() {
             que poderá reaproveitar componentes de eletrônicos que forem depositados.
           </p>
           <img
-            src="/src/assets/Ponto-de-coleta-foto-2.jpg"
+            src={image2}
             alt="Ponto de coleta de lixo eletrônico na Inteli"
             className="w-full h-auto mb-6 mx-auto"
             style={{ width: "23%"}}

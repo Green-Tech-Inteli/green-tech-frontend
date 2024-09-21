@@ -1,3 +1,4 @@
+import visitaBTG from "../../assets/VisitaBTGESG2023.png";
 
 const ESGChatbotProjectPage = () => {
   return (
@@ -11,7 +12,7 @@ const ESGChatbotProjectPage = () => {
             Data de previsão de entrega: 28 de Novembro de 2024
           </p>
           <img
-                src="/src/assets/VisitaBTGESG2023.png"
+                src={visitaBTG}
                 alt="Ponto de coleta de lixo eletrônico na Inteli"
                 className="w-full h-auto mb-6 mx-auto"
                 style={{ width: "50%"}}

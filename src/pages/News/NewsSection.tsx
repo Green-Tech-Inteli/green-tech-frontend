@@ -1,4 +1,6 @@
 import { useNavigate } from 'react-router-dom';
+import eletronicTrash from '../../assets/Ponto-de-coleta-foto-1.jpg';
+import atrobots from '../../assets/OficinaAtrobots.png';
 
 function NewsSection() {
     const navigate = useNavigate();
@@ -12,7 +14,7 @@ function NewsSection() {
                 <div className="flex flex-col overflow-hidden rounded-xl shadow-sm lg:flex-row-reverse">
 
                 <div className="h-80 bg-gray-300 aspect-video">
-                    <img src="/src/assets/Ponto-de-coleta-foto-1.jpg" alt="Ponto de coleta de lixo eletrônico na Inteli" className="w-full h-auto mb-6 object-cover" style={{ aspectRatio: '16/9' }}/>
+                    <img src={eletronicTrash} alt="Ponto de coleta de lixo eletrônico na Inteli" className="w-full h-auto mb-6 object-cover" style={{ aspectRatio: '16/9' }}/>
                 </div>
                 <div className="flex flex-col justify-center flex-1 p-6 bg-white">
                     <span className="text-xs uppercase dark:text-gray-400">Atividade Extensionista</span>
@@ -35,7 +37,7 @@ function NewsSection() {
                 <div className="flex flex-col overflow-hidden rounded-xl shadow-sm lg:flex-row-reverse">
 
                 <div className="h-80 bg-gray-300 aspect-video">
-                    <img src="/src/assets/OficinaAtrobots.png" alt="Ponto de coleta de lixo eletrônico na Inteli" className="w-full h-auto mb-6 object-cover" style={{ aspectRatio: '16/9' }}/>
+                    <img src={atrobots} alt="Ponto de coleta de lixo eletrônico na Inteli" className="w-full h-auto mb-6 object-cover" style={{ aspectRatio: '16/9' }}/>
                 </div>
                     
                 <div className="flex flex-col justify-center flex-1 p-6 bg-white">

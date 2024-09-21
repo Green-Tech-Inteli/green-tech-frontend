@@ -1,3 +1,6 @@
+import imagem1 from '../../assets/OficinaAtrobots.png';
+import imagem2 from '../../assets/OficinaAtrobots2.png';
+
 function AtrobotsPartneshp() {
     return (
       <div className="p-4 lg:p-8 bg-white text-gray-700">
@@ -6,7 +9,7 @@ function AtrobotsPartneshp() {
             <h1 className="text-4xl font-bold mb-4">Workshop “Sobre Plásticos e Moldes” - Tech Week</h1>
             <p className="text-gray-500 mb-2">Data da publicação: 15 de Agosto de 2024</p>
             <img
-                src="/src/assets/OficinaAtrobots.png"
+                src={imagem1}
                 alt="Ponto de coleta de lixo eletrônico na Inteli"
                 className="w-full h-auto mb-6 mx-auto"
                 style={{ width: "23%"}}
@@ -18,7 +21,7 @@ function AtrobotsPartneshp() {
               No primeiro momento, a professora Bruna apresentou diversos tópicos relacionados à moldagem e à fabricação de plásticos, destacando a importância da reciclagem na conservação ambiental. Após a palestra, os participantes tiveram a oportunidade de colocar a teoria em prática, criando moldes com giz de cera.
             </p>
             <img
-                src="/src/assets/OficinaAtrobots2.png"
+                src={imagem2}
                 alt="Ponto de coleta de lixo eletrônico na Inteli"
                 className="w-full h-auto mb-6 mx-auto"
                 style={{ width: "23%"}}
