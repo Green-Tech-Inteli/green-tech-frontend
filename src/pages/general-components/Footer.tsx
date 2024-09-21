@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import slackLogo from './../../assets/Slack-Logo-Mark-Black.png';
 
 function Footer() {
     return (

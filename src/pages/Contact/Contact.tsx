@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ContactPage = () => {
   return (
     <div className="p-4 lg:p-8 bg-white text-gray-700">

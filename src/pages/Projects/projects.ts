@@ -1,5 +1,4 @@
-import automatizandoAnaliseESG from './../../assets/automatizando-analise-esg.webp';
-import fotoClubeProjetoBTG from './../../assets/foto-clube-projeto-btg.jpeg';
+
 
 const techProjects = [
     {
